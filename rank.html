@@ -1,0 +1,16 @@
+<html>
+<h1>RANK</h1>
+
+<div id="res"></div>
+
+<script>
+let res = document.getElementById('res')
+let get_win = localStorage.getItem('rank') 
+
+if (get_win) {
+  res.innerHTML = get_win
+  console.log(get_win)
+}
+
+</script>
+</html>
