@@ -10,7 +10,7 @@ for (let i = 0; i < image.length; i++) {
     <table>
       <tr>
         <td><b>${image[i].name}</b></td>
-        <td><img class="image" id="image" src="${image[i].src}"></td>
+        <td><img id="image" src="${image[i].src}"></td>
       </tr>
     </table>
   `

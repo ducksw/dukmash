@@ -102,20 +102,22 @@ function salir() {
 
 function data_index() {
   let rand_index = Math.floor(Math.random() * image.length)
+  let box_image = document.getElementById('box-image')
+  let box = document.getElementById('box')
+  let res = document.getElementById('res');
+  let res2 = document.getElementById('res2');
   let rand_index2 
 
   do {
     rand_index2 = Math.floor(Math.random() * image.length)
   } while (rand_index === rand_index2)
 
-  document.getElementById('box-image').dataset.index = rand_index
-  document.getElementById('box').dataset.index = rand_index2
+  box_image.dataset.index = rand_index
+  box.dataset.index = rand_index2
 
-  document.getElementById('box-image').src = image[rand_index].src;
-  document.getElementById('box').src = image[rand_index2].src;
+  box_image.src = image[rand_index].src;
+  box.src = image[rand_index2].src;
 
-  let res = document.getElementById('res');
-  let res2 = document.getElementById('res2');
   res.innerHTML = image[rand_index].name
   res2.innerHTML = image[rand_index2].name
 }

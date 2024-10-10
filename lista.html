@@ -13,7 +13,6 @@ body {
   max-width: 100%;
   width: 200px;
   height: 200px;
-  cursor: pointer;
 }
 #res { 
   display: flex;
@@ -29,12 +28,71 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+#input {
+  background-color: #FEFFE1;
+  outline: none;
+  font-size: 15px;
+}
+.modal {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.396);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.modal_cont {
+  max-width: 100%;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#res {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#image_res {
+  max-width: 100%;
+  width: 350px;
+  height: 350px
+}
+.modal_cont button {
+  display: flex;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 </style>
 </head>
 <body>
-<div id="all"></div>
-<div id="box"></div>
 
+<input type="" placeholder="Busca el Personaje" id="input">
+<input type="submit" value="Buscar" id="btn">
+
+
+<br/><br/>
+<div id="all"></div>
+<div id="box">
+</div>
+
+<div class="modal" id="modal">
+<div class="modal_cont">
+<button id="exit">X</button>
+<div id="res"></div>
+</div>
+
+<div id="targetSection"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="list.js" type="module"></script>
+<script src="search.js" type="module"></script>
 </body>
 </html>
