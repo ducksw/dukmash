@@ -28,7 +28,7 @@ export const image = [
   { name: "Tomate Barraza", src: "https://statics.exitosanoticias.pe/2023/09/crop/650223b49bcd1__400x209.webp", cont: 0 },
   { name: "La Uchulu", src: "https://elcomercio.pe/resizer/v2/LQ34U4GNOZCUXFJQA3SPIIEYS4.jpg?auth=e7ed57c59c3289e25f2160b6dc1ee96bd20089aedf6c3db06172a695eb256ea3&width=1200&height=680&quality=75&smart=true", cont: 0 },
   { name: "Metiche", src: "https://elcomercio.pe/resizer/4eCpqbMcFiJIFcs1mA5Ue76I76E=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/N66T2RDXMRG65HF6NH7MZTCGAU.jpg", cont: 0 },
-  { name: "Melcolchita", src: "https://peru21-pe.b-cdn.net/sites/default/efsfiles/2024-09/melcochita.jpg", cont: 0 },
+  { name: "Melcochita", src: "https://peru21-pe.b-cdn.net/sites/default/efsfiles/2024-09/melcochita.jpg", cont: 0 },
   { name: "Susy Díaz", src: "https://e.rpp-noticias.io/xlarge/2023/10/14/075607_1487399.webp", cont: 0 },
   { name: "Andy V", src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYXJV4UPhWF5pO0oMUhKjOHkoxFxPVMb5scw&s", cont: 0 },
   { name: "Paisana Jacinta", src: "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/1285D/production/_99196857_jacinta-1.jpg.webp", cont: 0 },
@@ -45,5 +45,8 @@ export const image = [
   { name: "Joel Gonzales", src: "https://i.pinimg.com/736x/54/d4/a5/54d4a53922cfea4a361a706f75190ebb.jpg", cont: 0 },
   { name: "Jimmy Santi", src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVDqFK5rd_2vuXRs1PFpYWY5Tt_527wix-kg&s", cont: 0 },
   { name: "Peluchin", src: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/AIQOHW4FFBBILBPT6VNVQYSOG4.jpg", cont: 0 },
+  { name: "Christian Meier", src: "https://elcomercio.pe/resizer/5pSjdhf9c3Dp8seoQCzR5juM44o=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/P6YAGF5YPVHQBAOYZ55RLZ2HHU.jpg", cont: 0 },
+  { name: "Tigresa del Oriente", src: "https://elcomercio.pe/resizer/fiWgCqGJ9duIvM1aswKcysNJSFo=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/MGS5RB3IOFBZZGGCUR2FCZZ5OE.jpg", cont: 0 },
+  { name: "Mateo Garrido Lecca", src: "https://imgmedia.larepublica.pe/640x371/larepublica/migration/images/E35G3G4WTFDWRHGS62YUVALHHE.webp", cont: 0 },
 ]
 //{ name: "", src: "", cont: 0 },
