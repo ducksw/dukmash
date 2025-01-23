@@ -12,20 +12,21 @@ function search() {
 	let res = document.getElementById('res')
 	let modal = document.getElementById('modal')
 	let body = document.getElementById('body')
+
 	let input_modify = remove(input.trim().toLocaleLowerCase())
 	let add  = ""
 	let detected 
 
-	image.forEach(img => {
+  for (let img of image) {
 		let image_name = remove(img.name.trim().toLocaleLowerCase())
-			if (input_modify == image_name) {
-				add += `<h1>${image_name}</h1><br/<br/> <img id="image_res" src=${img.src}>`
-				res.innerHTML = add
-				detected = true
-				modal.style.display = "flex"
-        body.style.overflow = "hidden"
-			}
-		})
+    if (input_modify == image_name) {
+      add += `<h1>${image_name}</h1><br/<br/> <img id="image_res" src=${img.src}>`
+      res.innerHTML = add
+      detected = true
+      modal.style.display = "flex"
+      body.style.overflow = "hidden"
+    }
+  }
 	if (!detected) {
 		alert("no hay")
 	}

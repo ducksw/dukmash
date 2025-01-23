@@ -123,6 +123,8 @@ function data_index() {
 }
 window.onload = data_index()
 
+// ***** CAMBIAR IMAGEN CUANDO HACES CLICK *****
+
 document.getElementById('box-image').addEventListener('click', function() {
 	clicked_image(this);
 });
